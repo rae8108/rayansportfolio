@@ -1,4 +1,63 @@
+/* body {
+  background: lightpink;
+  color: white;
+} */
+
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin: 30px;
+  padding: 10px;
+
 }
 
+.sidebar {
+  margin-top: 23px;
+}
+
+nav {
+  text-align: left;
+  margin-top: 90px;
+}
+
+
+.custom-list {
+  list-style-type: none;  
+  padding: 0;
+  margin: 40px;
+}
+
+
+.custom-list li {
+  position: relative;  
+  padding-left: 90px;  
+  line-height: 1.5;  
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+
+.custom-list li::before {
+  content: "";  
+  position: absolute;  
+  left: 0; 
+  top: 50%;  
+  transform: translateY(-50%);  
+  width: 75px;  
+  height: 1.5px;  
+  background-color: rgb(92, 2, 92);  
+  
+}
+
+.custom-list li:hover::before {
+  width: 100px;  
+  background-color: rgb(92, 2, 92);  
+  
+}
+
+.navlinks:hover  {
+  transform: translateX(20px);  
+  color: rgb(92, 2, 92);   
+  padding-left: 109px;
+}
