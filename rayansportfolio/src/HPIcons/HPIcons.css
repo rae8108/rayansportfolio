@@ -1,0 +1,29 @@
+.sm {
+    display: block;
+
+}
+.socialmediaicons {
+    display: flex; 
+    gap: 35px; 
+    justify-content: left; 
+    align-items: center; 
+    margin-top: 200px; 
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .socialmediaicons svg {
+    font-size: 25px; 
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    color: inherit
+  }
+  
+  
+  
