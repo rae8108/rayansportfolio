@@ -6,7 +6,6 @@ export default function Homepage() {
     return (
         <div>
          <h1 className=""><NavLink to="/">Rayan Bana</NavLink></h1>
-          <h3>United Kingdom</h3>
           <div className="info">
           Aspiring developer with a passion for building accessible web experiences.
           </div>
