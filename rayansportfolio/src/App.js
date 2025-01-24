@@ -10,44 +10,45 @@ import HPIcons from './HPIcons/HPIcons';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <div className="sidebar">
-          <div>
-            <Homepage />
-          </div>
-          <nav>
-  <ul className="custom-list">
-    <li className='navlinks'>
-      <NavLink to="#about"><span>About</span></NavLink>
-    </li>
-    <li className='navlinks'>
-      <NavLink to="#resume"><span>Resume</span></NavLink>
-    </li>
-    <li className='navlinks'>
-      <NavLink to="#projects"><span>Projects</span></NavLink>
-    </li>
-  </ul>
-</nav>
-
-          <div>
-            <HPIcons />
-          </div>
-        </div>
-
-      
-        <div className="content">    
-          <section id="about">
-            <About />
-          </section>
-          <section id="resume">
-            <Resume />
-          </section>
-          <section id="projects">
-            <Projects />
-          </section>
-        </div>
+  <div className="App">
+    <div>
+    <div className="sidebar">
+      <div>
+        <Homepage />
       </div>
-    </Router>
+      <nav>
+        <ul className="custom-list">
+          <li className="navlinks">
+            <NavLink to="#about"><span>About</span></NavLink>
+          </li>
+          <li className="navlinks">
+            <NavLink to="#resume"><span>Resume</span></NavLink>
+          </li>
+          <li className="navlinks">
+            <NavLink to="#projects"><span>Projects</span></NavLink>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <HPIcons />
+      </div>
+    </div>
+    </div>
+
+    <div className="content">
+      <section id="about">
+        <About />
+      </section>
+      <section id="resume">
+        <Resume />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+    </div>
+  </div>
+</Router>
+
   );
 }
 
