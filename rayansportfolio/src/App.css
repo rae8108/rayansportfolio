@@ -1,7 +1,7 @@
 
   body {
-    background-color: rgba(165, 42, 42, 0.835);
-    color: #f09f90;
+    background-color: #BB6F5E;
+    color: #fcf5f1;
   }
 
   .content {
@@ -56,18 +56,18 @@ nav {
   transform: translateY(-50%);  
   width: 75px;  
   height: 1.5px;  
-  background-color: #f09f90;
+  background-color: #FFF2EA;
   
 }
 
 .custom-list li:hover::before {
   width: 100px;  
-  background-color: #f09f90;
+  background-color: #FE8E98;
   
 }
 
 .navlinks:hover  {
   transform: translateX(20px);  
-  color: #f09f90;  
+  color: #FE8E98;  
   padding-left: 109px;
 }
