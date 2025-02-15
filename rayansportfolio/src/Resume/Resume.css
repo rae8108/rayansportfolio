@@ -1,0 +1,25 @@
+.resume-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    max-width: 550px;
+    padding-bottom: 5px;
+}
+
+.resume-title {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.resume-dates {
+    font-size: 11px;
+    color: white;
+    text-align: end;
+}
+
+.resume-p {
+    grid-column: 1 / -1;
+    font-size: 13.5px;
+    margin-top: 0;
+}
