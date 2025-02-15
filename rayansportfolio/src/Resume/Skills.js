@@ -2,20 +2,30 @@ import React from 'react';
 import "./Skills.css";
 
 export default function Skills() {
+  const skills = [
+    { title: "Languages", description: "HTML, CSS, JS" },
+    { title: "Web Design", description: "Responsive, CSS Grid, Flexbox" },
+    { title: "Frameworks", description: "React.JS, Bootstrap" },
+    { title: "API", description: "OpenAPI" },
+    { title: "Hosting", description: "Netlify" },
+    { title: "Version Control", description: "Git and GitHub" },
+  ];
+
   return (
-    <div className='skills-container'>
-    <h3>Skills</h3>
-    <div className='skills-grid'>
-        <p>Administration</p>
-        <p>Time Management</p>
-        <p>Adaptability</p>
-        <p>Interpersonal Skills</p>
-        <p>Problem Solving</p>
-        <p>Communication</p>
-        <p>Microsoft Office</p>
-        <p>Team Collaboration</p>
-        <p>Attention to Detail</p>
-    </div>
+    <div className='flip-container'>
+      {skills.map((skill, index) => (
+        <div className="flip-card" key={index}>
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <p>{skill.title}</p>
+            </div>
+            <div className="flip-card-back">
+              <small>{skill.projectname}</small>
+              <p>{skill.description}</p>
+            </div>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
