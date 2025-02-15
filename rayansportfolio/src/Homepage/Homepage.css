@@ -1,11 +1,12 @@
 h1 {
     font-size: 3.8em;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: -8px;
 }
 
 .info {
     text-align: left;
     max-width: 400px;
     line-height: 1.5;
+    margin-top: 20px;
 }
