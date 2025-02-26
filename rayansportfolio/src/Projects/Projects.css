@@ -1,0 +1,9 @@
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+}
+
+.chaibubs {
+    max-width: 200px;
+    max-height: auto;
+}
