@@ -3,7 +3,19 @@
     grid-template-columns: repeat(2, 1fr) ;
 }
 
-.chaibubs {
-    max-width: 200px;
-    max-height: auto;
+.projectimage {
+    max-width: 220px;
+    height: 140px;
+    margin-top: 6px;
+}
+
+.projecttitle {
+    font-size: 20px;
+    margin: 0;
+    padding-left: 4px;
+}
+
+.projectp {
+    font-size: 14px;
+    padding-left: 4px;
 }
